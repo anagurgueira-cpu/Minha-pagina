@@ -1,0 +1,58 @@
+/* Reset básico para remover margens padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilização da Barra de Navegação */
+.navbar {
+    background-color: #1a1a1a; /* Preto levemente suave */
+    display: flex;
+    justify-content: space-between; /* Separa a logo dos links */
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Estilo da Logo */
+.navbar .logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Lista de links de navegação */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilo dos links individuais */
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse (Hover) */
+.nav-links a:hover {
+    color: #00adb5; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilização do conteúdo da página */
+.conteudo {
+    padding: 40px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.conteudo h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
